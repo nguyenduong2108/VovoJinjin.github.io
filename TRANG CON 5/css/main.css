@@ -1,0 +1,354 @@
+@charset "utf-8";
+/* CSS Document */
+
+.vovojinjintr5
+{
+	width: 1920px;
+	height: auto;
+	margin: 0 auto;
+}
+@font-face
+{
+	font-family: Spacemono;
+	src: url(../font/SpaceMono-Regular.ttf);
+}
+
+@font-face
+{
+	font-family: Spacemonobold;
+	src: url(../font/SpaceMono-Bold.ttf);
+}
+.nen
+{
+	width: 1920px;
+	height: 1080px;
+	position: fixed;
+	background: url(../image/1.jpg) 50%;
+	top: 0px;
+	z-index: -500;
+	opacity: 0.5;
+}
+.home1
+{
+	width: 1920px;
+	height: 207px;
+	top: 0px;
+	position: fixed;
+}
+.home1left
+{
+	width: 330px;
+	height: 207px;
+	float: left;
+}
+.home1left img
+{
+	margin: 30px 0px 0px 125px;
+}
+.home1right
+{
+	width: 330px;
+	height: 182px;
+	font-family: Spacemonobold;
+	float: right;
+	font-size: 15px;
+	padding: 25px 0px 0px 0px;
+}
+.home1right ul
+{
+	list-style: none;
+	font-size: 30px;
+}
+.home1right ul li a
+{
+	text-decoration: none;
+	color: black;
+}
+.home1right ul li a:hover
+{
+	text-decoration: underline;
+	text-decoration-color: #FF0000;
+}
+.home1center
+{
+	width: 1260px;
+	height: 207px;
+	float: left;
+}
+.home3
+{
+	width: 1920px;
+	height: 207px;
+	position: fixed;
+	top: 870px;
+}
+.home3left
+{
+	width: 220px;
+	height: 207px;
+	float: left;
+	padding-left: 110px;
+}
+.home3right
+{
+	width: 470px;
+	height: 117px;
+	float: right;
+	font-family: spacemonobold;
+	font-size: 15px;
+	padding-top: 90px;
+}
+
+.home3left ul li a
+{
+	color: white;
+}
+.home3left ul li
+{
+	list-style: none;
+	margin: 80px 10px 0px 0px;
+	display: inline-block;
+	font-size: 23px;
+	padding: 5px 9px;
+	color: black;
+	background-color: #000000;
+	border: 1px solid #000000;
+	border-radius: 50%;
+	transition: .1s;
+}
+
+.home3left ul li:hover
+{
+	background-color: #FF0000;
+	border: 1px solid #FF0000;
+}
+.tieude1
+{
+	width: 450px;
+	height: 150px;
+	font-family: Spacemonobold;
+	font-size: 100px;
+	text-align: center;
+	margin: 200px 0px 0px 735px;
+}
+.tieude2
+{
+	width: 1920px;
+	height: 50px;
+	text-align: center;
+	margin-top: 50px;
+}
+.tieude2 p
+{
+	width: 150px;
+	margin: 0px 0px 0px 880px;
+	color: white;
+	background-color: #FF0000;
+	font-family: Spacemonobold;
+	font-size: 28px;
+}
+.noidung2
+{
+	width: 1920px;
+	height: 170px;
+	text-align: center;
+}
+.noidung2 p
+{
+	font-family: Spacemonobold;
+	font-size: 35px;
+}
+.tieude3
+{
+	width: 1920px;
+	height: 50px;
+	font-family: Spacemonobold;
+	font-size: 28px;
+	text-align: center;
+	margin: 50px 0px 0px 900px;
+}
+.tieude3 p
+{
+	width: 120px;
+	padding: 0px 0px 0px 0px;
+	color: white;
+	background-color: #FF0000;
+}
+.noidung3
+{
+	width: 1920px;
+	height: 170px;
+	text-align: center;
+}
+.noidung3 p
+{
+	font-family: Spacemonobold;
+	font-size: 35px;
+}
+.tieude4
+{
+	width: 1920px;
+	height: 50px;
+	font-family: Spacemonobold;
+	font-size: 54px;
+	text-align: center;
+	margin: 150px 0px 0px 870px;
+}
+.tieude4 p
+{
+	width: 120px;
+	padding: 0px 0px 0px 0px;
+}
+.noidung4
+{
+	width: 1920px;
+	height: 170px;
+	text-align: center;
+}
+.noidung4 p
+{
+	font-family: Spacemono;
+	font-size: 35px;
+}
+.lienlac
+{
+	width: 1920px;
+	height: 600px;
+}
+.formlienlac
+{
+	width: 1920px;
+	height: 600px;
+	margin-left: -20px;
+}
+
+.formlienlac form ul
+{
+	float: left;
+}
+
+.formlienlac form ul li
+{
+	list-style: none;
+	margin-left: 620px;
+	
+	
+}
+
+.formlienlac form ul li input[type=text]
+{
+	font-family: Spacemonobold;
+	height: 60px;
+	width: 620px;
+	color: black;
+}
+
+.formlienlac form ul li input[placeholder="Name"]
+{
+	width: 298px;
+	font-size: 20px;
+	padding-left: 10px;
+}
+
+.formlienlac form ul li input[placeholder="Email"]
+{
+	width: 298px;
+	font-size: 20px;
+	padding-left: 10px;
+}
+
+.formlienlac form ul li input[placeholder="Phone"]
+{
+	width: 298px;
+	font-size: 20px;
+	padding-left: 10px;
+}
+
+.formlienlac form ul li input[placeholder="Website"]
+{
+	width: 298px;
+	font-size: 20px;
+	padding-left: 10px;
+}
+.formlienlac form ul li input[placeholder="Subject"]
+{
+	width: 615px;
+	font-size: 20px;
+	padding-left: 10px;
+}
+
+.formlienlac form ul li textarea
+{
+	font-family: Spacemonobold;
+	height: 300px;
+	width: 615px;
+	font-size: 20px;
+	padding-left: 10px;
+}
+.formlienlac input[type=submit]
+{
+	width: 120px;
+	height: 50px;
+	margin-left: 30px;
+	margin-top: 15px;
+	color: white;
+	font-family: Spacemonobold;
+	background: #FF0000;
+	border: none;
+	font-size: 20px;
+	padding-left: 10px;
+}
+
+.formlienlac input[type=submit]:hover
+{
+	background: black;
+	color: #FFFFFF;
+}
+.rong
+{
+	width: 1920px;
+	height: 200px;
+}
+
+.lienlacc
+{
+	width: 700px;
+	height: 150px;
+	margin: 200px 0px 0px 600px;
+}
+.lienlacc h1
+{
+	font-family: Spacemonobold;
+	font-size: 80px;
+	text-align: center;
+	text-decoration: underline;
+	text-decoration-color: black;
+}
+.lienlacc h1 a
+{
+	color: black;
+}
+.lienlacc h1 a:hover
+{
+	text-decoration: underline;
+	text-decoration-color: #FF0000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
