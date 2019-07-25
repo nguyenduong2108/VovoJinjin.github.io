@@ -1,0 +1,428 @@
+@charset "utf-8";
+/* CSS Document */
+
+.vovojinjintr1
+{
+	width: 1920px;
+	height: auto;
+	margin: 0 auto;
+	position: relative;
+}
+html
+{
+	scroll-behavior: smooth;
+}
+@font-face
+{
+	font-family: Spacemono;
+	src: url(../font/SpaceMono-Regular.ttf);
+}
+
+@font-face
+{
+	font-family: Spacemonobold;
+	src: url(../font/SpaceMono-Bold.ttf);
+}
+.nen
+{
+	width: 1920px;
+	height: 1080px;
+	position: fixed;
+	background: url(../image/1.jpg) 50%;
+	top: 0px;
+	z-index: -500;
+	opacity: 0.5;
+}
+.home1
+{
+	width: 1920px;
+	height: 207px;
+	top: 0px;
+	position: fixed;
+}
+.home1left
+{
+	width: 330px;
+	height: 207px;
+	float: left;
+}
+.home1left img
+{
+	margin: 30px 0px 0px 125px;
+}
+.home1right
+{
+	width: 330px;
+	height: 182px;
+	font-family: Spacemonobold;
+	float: right;
+	font-size: 15px;
+	padding: 25px 0px 0px 0px;
+}
+.home1right ul
+{
+	list-style: none;
+	font-size: 30px;
+}
+.home1right ul li a
+{
+	text-decoration: none;
+	color: black;
+}
+.home1right ul li a:hover
+{
+	text-decoration: underline;
+	text-decoration-color: #FF0000;
+}
+.home1center
+{
+	width: 1260px;
+	height: 207px;
+	float: left;
+}
+
+.hinhnen
+{
+	width: 1331px;
+	height: 829px;
+	margin: 190px 0px 0px 294px;
+}
+.hinhnen h1
+{
+	margin: -250px 0px 0px 0px;
+	font-family: Spacemonobold;
+	color: white;
+	font-size: 87px;
+	text-align: center;
+}
+.hinhnen p
+{
+	font-family: Spacemono;
+	color: white;
+	font-size: 43px;
+	margin: -20px 0px 0px 135px;
+}
+.tieude1
+{
+	width: 220px;
+	height: 75px;
+	font-family: Spacemonobold;
+	margin: 80px 0px 0px 294px;
+	padding-top: 25px;
+	font-size: 30px;
+}
+.noidung1
+{
+	width: 1331px;
+	height: 320px;
+	margin: 0px 0px 0px 294px;
+}
+.noidung1trai
+{
+	width: 50%;
+	height: 100%;
+	float: left;
+	font-family: Spacemono;
+	font-size: 17px;
+	text-align: left;
+}
+.noidung1trai p
+{
+	padding: 10px 70px 0px 0px;
+}
+.noidung1phai
+{
+	width: 50%;
+	height: 100%;
+	float: right;
+	font-family: Spacemono;
+	font-size: 17px;
+	text-align: left;
+}
+.noidung1phai p
+{
+	padding: 10px 0px 0px 50px;
+}
+.tieude2
+{
+	width: 250px;
+	height: 75px;
+	font-family: Spacemonobold;
+	margin: 40px 0px 0px 294px;
+	padding-top: 25px;
+	font-size: 30px;
+}
+.noidung2
+{
+	width: 1331px;
+	height: 350px;
+	margin: 0px 0px 0px 294px;
+}
+.noidung2hinh
+{
+	width: 415px;
+	height: 297px;
+	float: left;
+	margin-top: 50px;
+}
+.tieude3
+{
+	width: 250px;
+	height: 75px;
+	font-family: Spacemonobold;
+	margin: 85px 0px 0px 294px;
+	padding-top: 25px;
+	font-size: 30px;
+}
+.noidung3
+{
+	width: 1331px;
+	height: 400px;
+	margin: 0px 0px 0px 294px;
+}
+.noidung3hinh
+{
+	width: 620px;
+	height: 350px;
+	float: left;
+	margin-top: 50px;
+}
+.tieude4
+{
+	width: 300px;
+	height: 75px;
+	font-family: Spacemonobold;
+	margin: 85px 0px 0px 294px;
+	padding-top: 25px;
+	font-size: 30px;
+}
+.noidung4
+{
+	width: 1331px;
+	height: auto;
+	margin: 0px 0px 0px 294px;
+}
+.tieude5
+{
+	width: 300px;
+	height: 75px;
+	font-family: Spacemonobold;
+	margin: 85px 0px 0px 294px;
+	padding-top: 25px;
+	font-size: 30px;
+}
+.noidung5
+{
+	width: 1331px;
+	height: auto;
+	margin: 0px 0px 0px 294px;
+}
+.tieude6
+{
+	width: 300px;
+	height: 75px;
+	font-family: Spacemonobold;
+	margin: 85px 0px 0px 294px;
+	padding-top: 25px;
+	font-size: 30px;
+}
+.noidung6
+{
+	width: 1331px;
+	height: auto;
+	margin: 0px 0px 0px 294px;
+	text-align: center;
+}
+.tieude7
+{
+	width: 300px;
+	height: 75px;
+	font-family: Spacemonobold;
+	margin: 85px 0px 0px 294px;
+	padding-top: 25px;
+	font-size: 30px;
+}
+.noidung7
+{
+	width: 1331px;
+	height: auto;
+	padding: 0px;
+	position: relative;
+	top: 0px;
+	left: 294px;
+}
+.hinh1
+{
+	width: 753px;
+	height: auto;
+	z-index: 5;
+	position: absolute;
+	top: 100px;
+	left: 150px;
+}
+.hinh2
+{
+	width: 526px;
+	height: auto;
+	position: absolute;
+	top: 550px;
+	left: 805px;
+}
+.hinh3
+{
+	width: 635px;
+	height: auto;
+	position: absolute;
+	top: 750px;
+}
+.hinh4
+{
+	width: 630px;
+	height: auto;
+	position: absolute;
+	z-index: 5;
+	top: 1000px;
+	left: 700px;
+}
+.hinh5
+{
+	width: 832px;
+	height: auto;
+	position: absolute;
+	z-index: 3;
+	top: 1400px;
+}
+.hinh6
+{
+	width: 995px;
+	height: auto;
+	position: absolute;
+	z-index: 0;
+	top: 1800px;
+	left: 335px;
+}
+.hinh7
+{
+	width: 1331px;
+	height: auto;
+	position: absolute;
+	top: 2650px;
+}
+.credit
+{
+	width: 500px;
+	height: 200px;
+	position: absolute;
+	top: 8050px;
+	left: 294px;
+}
+.credit1
+{
+	width: 500px;
+	height: 45px;
+	font-family: Spacemonobold;
+	font-size: 30px;
+	padding: 5px 0px 0px 0px;
+}
+.credit2
+{
+	width: 500px;
+	height: 150px;
+	font-family: Spacemonobold;
+	font-size: 15px;
+}
+.credit2trai
+{
+	width: 170px;
+	height: 130px;
+	float: left;
+	padding: 20px 0px 0px 80px;
+}
+.credit2phai
+{
+	width: 250px;
+	height: 130px;
+	float: right;
+	padding: 20px 0px 0px 0px;
+	color: #FF0000;
+}
+.hinhcuoi
+{
+	width: 1920px;
+	height: 1080px;
+	position: relative;
+	margin: 3800px 0px 0px 0px;
+	cursor: pointer;
+}
+.hinhcuoi img
+{
+	display: block;
+}
+.chu
+{
+	width: 0px;
+	height: 1080px;
+	font-family: Spacemonobold;
+	position: absolute;
+	background-color:rgba(255,0,4,0.56);
+	top: 0px;
+	display: flex;
+	overflow: hidden;
+	align-items: center;
+}
+.chu p a
+{
+	text-decoration: none;
+	color: white;
+	font-size: 30px;
+}
+.chu h1
+{
+	color: white;
+	font-size: 90px;
+}
+.hinhcuoi:hover .chu
+{
+	width: 1920px;
+	transition: .5s ease;
+}
+
+
+/*back to top*/
+
+.container {
+    width: 100px;
+    margin: auto;
+}
+/* định dạng cho button */
+#myBtn {
+  display: none; /* Mặc định button sẽ được ẩn*/
+  position: fixed;
+  bottom: 50px;
+  right: 50px; 
+  z-index: 1001; /* button được ưu tiên hiển thị đè lên các phần khác*/
+  border: none;
+  outline: none;
+  background-color: #800EAB;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+}
+
+html
+{
+	scroll-behavior: smooth;
+}
+ 
+#myBtn:hover {
+  background-color: #FF0000;
+}
+
+
+
+
+
+

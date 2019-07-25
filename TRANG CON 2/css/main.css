@@ -1,0 +1,475 @@
+@charset "utf-8";
+/* CSS Document */
+
+.vovojinjintr2
+{
+	width: 1920px;
+	height: auto;
+	margin: 0 auto;
+}
+@font-face
+{
+	font-family: Spacemono;
+	src: url(../font/SpaceMono-Regular.ttf);
+}
+
+@font-face
+{
+	font-family: Spacemonobold;
+	src: url(../font/SpaceMono-Bold.ttf);
+}
+.nen
+{
+	width: 1920px;
+	height: 1080px;
+	position: fixed;
+	background: url(../image/1.jpg) 50%;
+	top: 0px;
+	z-index: -500;
+	opacity: 0.5;
+}
+.home1
+{
+	width: 1920px;
+	height: 207px;
+	top: 0px;
+	position: fixed;
+}
+.home1left
+{
+	width: 330px;
+	height: 207px;
+	float: left;
+}
+.home1left img
+{
+	margin: 30px 0px 0px 125px;
+}
+.home1right
+{
+	width: 330px;
+	height: 182px;
+	font-family: Spacemonobold;
+	float: right;
+	font-size: 15px;
+	padding: 25px 0px 0px 0px;
+}
+.home1right ul
+{
+	list-style: none;
+	font-size: 30px;
+}
+.home1right ul li a
+{
+	text-decoration: none;
+	color: black;
+}
+.home1right ul li a:hover
+{
+	text-decoration: underline;
+	text-decoration-color: #FF0000;
+}
+.home1center
+{
+	width: 1260px;
+	height: 207px;
+	float: left;
+}
+.hinhnen
+{
+	width: 1331px;
+	height: 829px;
+	margin: 190px 0px 0px 294px;
+}
+.hinhnen h1
+{
+	margin: -250px 0px 0px 0px;
+	font-family: Spacemonobold;
+	color: white;
+	font-size: 87px;
+	text-align: left;
+	margin-left: 135px;
+}
+.hinhnen p
+{
+	font-family: Spacemono;
+	color: white;
+	font-size: 43px;
+	margin: -10px 0px 0px 135px;
+}
+.posterphim
+{
+	width: 1331px;
+	height: auto;
+	position: relative;
+	margin: 0px 0px 0px 294px;
+}
+.phim1
+{
+	font-family: Spacemonobold;
+	position: absolute;
+	z-index: 1;
+	top: 364px;
+	left: 805px;
+}
+.phim1 h1
+{
+	font-size: 37px;
+	color: #790000;
+}
+.hinhphim1
+{
+	position: absolute;
+	top: 138px;
+	left: 969px;
+}
+.phim2
+{
+	position: absolute;
+	top: 845px;
+}
+.phim2 h1
+{
+	font-size: 37px;
+	color: #790000;
+	margin-top: -5px;
+	font-family: Spacemonobold;
+}
+.phim2 p
+{
+	font-size: 28px;
+	color: #790000;
+	margin-top: -30px;
+	font-family: Spacemono;
+}
+.hinhphim2a
+{
+	position: absolute;
+	top: 301px;
+}
+.hinhphim2b
+{
+	position: absolute;
+	top: 501px;
+	left: 362px;
+}
+.phim3
+{
+	font-family: Spacemonobold;
+	position: absolute;
+	top: 1138px;
+	left: 555px;
+	z-index: 2;
+}
+.phim3 h1
+{
+	font-size: 37px;
+	color: #790000;
+}
+.hinhphim3
+{
+	position: absolute;
+	top: 929px;
+	left: 969px;
+	z-index: 3;
+}
+.phim4
+{
+	font-family: Spacemonobold;
+	position: absolute;
+	top: 1452px;
+	left: 495px;
+}
+.phim4 h1
+{
+	font-size: 37px;
+	color: #790000;
+	font-family: Spacemonobold;
+}
+.phim4 p
+{
+	font-size: 28px;
+	color: #790000;
+	margin-top: -30px;
+	font-family: Spacemono;
+}
+.hinhphim4
+{
+	position: absolute;
+	top: 1261px;
+}
+.phim5
+{
+	position: absolute;
+	top: 2052px;
+	left: 220px;
+}
+.phim5 h1
+{
+	font-size: 37px;
+	color: #790000;
+	margin-top: -5px;
+	font-family: Spacemonobold;
+}
+.phim5 p
+{
+	font-size: 28px;
+	color: #790000;
+	margin-top: -30px;
+	font-family: Spacemono;
+	text-align: right;
+	letter-spacing: 5px;
+}
+.hinhphim5a
+{
+	position: absolute;
+	top: 1633px;
+	left: 969px;
+}
+.hinhphim5b
+{
+	position: absolute;
+	top: 1846px;
+	left: 667px;
+}
+.phim6
+{
+	position: absolute;
+	top: 2561px;
+	left: 460px;
+}
+.phim6 h1
+{
+	font-size: 37px;
+	color: #790000;
+	font-family: Spacemonobold;
+}
+.phim6 p
+{
+	font-size: 28px;
+	color: #790000;
+	margin-top: -30px;
+	font-family: Spacemono;
+}
+.hinhphim6
+{
+	position: absolute;
+	top: 2250px;
+}
+.movieposter
+{
+	width: 1920px;
+	position: absolute;
+	top: 938px;
+	left: -294px;
+}
+.vedigital
+{
+	width: 1331px;
+	height: auto;
+	position: relative;
+	margin: 0px 0px 0px 294px;
+}
+.ve1
+{
+	position: absolute;
+	top: 3340px;
+	left: 253px;
+}
+.ve1 h1
+{
+	font-size: 37px;
+	color: #790000;
+	font-family: Spacemonobold;
+}
+.ve1 p
+{
+	font-size: 28px;
+	color: #790000;
+	margin-top: -30px;
+	font-family: Spacemono;
+	text-align: right;
+}
+.digital1
+{
+	position: absolute;
+	top: 3152px;
+	left: 667px;
+}
+.digital2
+{
+	position: absolute;
+	top: 3652px;
+}
+.digital3
+{
+	position: absolute;
+	top: 3790px;
+	left: 805px;
+}
+.ve4
+{
+	position: absolute;
+	top: 4911px;
+	left: 193px;
+	z-index: 4;
+}
+.ve4 h1
+{
+	font-size: 37px;
+	color: #790000;
+	font-family: Spacemonobold;
+	text-align: right;
+}
+.ve4 p
+{
+	font-size: 28px;
+	color: #790000;
+	margin-top: -30px;
+	font-family: Spacemono;
+}
+.digital4
+{
+	position: absolute;
+	top: 4665px;
+	left: 683px;
+	z-index: 5;
+}
+.digital5
+{
+	position: absolute;
+	top: 5239px;
+}
+.digital6
+{
+	position: absolute;
+	top: 5762px;
+	left: 683px;
+}
+.digitalart
+{
+	width: 1920px;
+	position: absolute;
+	top: 4517px;
+	left: -294px;
+}
+.credit
+{
+	width: 500px;
+	height: 200px;
+	margin: 6500px 0px 0px 294px;
+}
+.credit1
+{
+	width: 500px;
+	height: 45px;
+	font-family: Spacemonobold;
+	font-size: 30px;
+	padding: 5px 0px 0px 0px;
+}
+.credit2
+{
+	width: 500px;
+	height: 150px;
+	font-family: Spacemonobold;
+	font-size: 15px;
+}
+.credit2trai
+{
+	width: 170px;
+	height: 130px;
+	float: left;
+	padding: 20px 0px 0px 80px;
+}
+.credit2phai
+{
+	width: 250px;
+	height: 130px;
+	float: right;
+	padding: 20px 0px 0px 0px;
+	color: #FF0000;
+}
+.hinhcuoi
+{
+	width: 1920px;
+	height: 1080px;
+	position: relative;
+	margin: 0px 0px 0px 0px;
+	cursor: pointer;
+}
+.hinhcuoi img
+{
+	display: block;
+}
+.chu
+{
+	width: 0px;
+	height: 1080px;
+	font-family: Spacemonobold;
+	position: absolute;
+	background-color:rgba(255,0,4,0.56);
+	top: 0px;
+	display: flex;
+	overflow: hidden;
+	align-items: center;
+}
+.chu p a
+{
+	text-decoration: none;
+	color: white;
+	font-size: 30px;
+}
+.chu h1
+{
+	color: white;
+	font-size: 90px;
+}
+.hinhcuoi:hover .chu
+{
+	width: 1920px;
+	transition: .5s ease;
+}
+
+/*back to top*/
+
+.container {
+    width: 100px;
+    margin: auto;
+}
+/* định dạng cho button */
+#myBtn {
+  display: none; /* Mặc định button sẽ được ẩn*/
+  position: fixed;
+  bottom: 50px;
+  right: 50px; 
+  z-index: 1001; /* button được ưu tiên hiển thị đè lên các phần khác*/
+  border: none;
+  outline: none;
+  background-color: #800EAB;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+}
+
+html
+{
+	scroll-behavior: smooth;
+}
+ 
+#myBtn:hover {
+  background-color: #FF0000;
+}
+
+
+
+
+
+
+
+
+
+
+
